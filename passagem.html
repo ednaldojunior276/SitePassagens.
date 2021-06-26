@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Passagens aereas</title>
+    <link rel = "stylesheet" type="text/css" href = "passagem.css">
+</head>
+<body>
+    <div id = "interface">
+    <header>
+      <div id = "container">  
+            <h1>IRGol150anos</h1>
+                <nav id = "div01">
+                    <ul>
+                        <li>VoeBiz</li>
+                        <li>Smile</li>
+                        <li>IRGolAerotech </li>
+                        <li><a href = "">Agência</a></li>
+                        <li><a href = "">Emepresas</a></li>
+                        <input type = "search" name = "busar" id = "buscar" placeholder = "Busque aqui">
+                        <button id = "bca" onclick="buscar()">Buscar</button>
+                    </ul>
+                </nav>
+            
+            <nav id = "div02">
+                <ul>
+                    <li><a href = "">Sua viagem</a></li>
+                    <li><a href = "">Informações</a></li>
+                    <li><a href = "">Serviços</a></li>
+                    <li><a href = "">A IRGol</a></li>
+                    <li><a href = "">Atendimento</a></li>
+                <ul>
+            </nav>
+        </div>
+    <header>
+    <section>
+        <div id = "div04">
+            <div id = "s">
+            <input type = " text" name = "origem" id = "origem" placeholder = "Digite a origem" class = "msm">
+            <input type = "text" name = "destino" id = "destino" placeholder = "Digite o destino" class = "msm">
+            <input type = "number" name = "quantidade" id = "quantidade" placeholder = "Passagens" class = "msm">
+         
+            <input type = "number" name = "horario" id = "horario" placeholder = "Escolha um horario" class = "msm">
+            <button onclick = "Calcular()" id = "calc">Calcular preço</button> 
+            <button onclick = "Apagar()" id = "calc">Limpar</button></br></br>
+            <div id = "res"></div>
+        </div>  
+    </div> 
+    </section>
+    <section>
+        <div id = "div05">
+          <nav>
+            <ul id = "blocos">
+                <li><a href = ""><strong>Gol conforte</strong></br> Reserve o seu assento e viaje com muito mais espaço</a></li>
+                <li><a href = ""><strong>Consulte o seu preço</strong></br> Você tem a opção de verificar o preço do seu voo  Viaje seguro</a></li>
+                <li><a href = ""><strong>Melhores lugares </strong></br>Conheça os melhores lugares Viaje para os melhores lugares que você ainda não conheçe</a></li>
+                <li><a href = ""><strong>Frota de aviação</strong></br>Conheça a nossa frota de aviação Melhores frotas preparado para leva-los</a></li>
+                <li><a href = ""><strong>Conhecimento é essencial</strong></br>Leia sempre nas viagens Conheça os melhores autores para viajar</a></li>
+                <li><a href = ""><strong>Aproveite e divirta-se</strong></br>Aproveitar a sua viagem é muito bom para a sua vida Boa viagem e divertasse</a></li>
+            </ul>    
+        </nav>
+        </div>
+    </section>
+    <article>
+        <div id = "div06">
+            <h1>Viage Seguro e Confortável</h1>
+            <p>Conheça o nosso padrão de segurança durante a sua viagem</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/33x34twhO-E"
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen id = "video01"></iframe>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xI-mQ-b1C0Y" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen id = "video01"></iframe>
+        
+            <div>
+    </article>
+    <footer>
+        <div id = "rodape">
+            <h2>SAIBA MAIS</h2>
+            <P>Consulte em <strong>SAIBA MAIS</strong> e conheça todos os novos serviços e sporte que preparamos para você</P>
+
+        </div>
+    </footer>
+    <script src="passagem.js"></script>
+</div>
+</body>
+</html>
